@@ -1,0 +1,122 @@
+body{
+background-color: #99ff33;
+}
+
+#title{
+margin: 20px auto;
+padding: 3vw;
+font-size: calc(5vw);
+font-weight: bold;
+width: fit-content;
+border: 1vw dotted white;
+border-radius:15vw;
+}
+
+.play1{
+background-color: rgb(246, 187, 0);
+width: 80vw;
+height: calc(100vw);
+
+margin: 20px auto;
+padding: 10px;
+}
+
+
+.tableout{
+background: url("trs.png");
+background-size: 25% 25%;
+border-width:1vw;
+border-radius:50%;
+border-style:solid;
+border-color:red;
+box-shadow: 1vw 1vw 3vw 2vw #333333;
+width:70vw;
+height:70vw;
+
+animation: roll 20s linear infinite;
+}
+
+.table1{
+width:63vw;
+height:63vw;
+}
+
+
+
+.cell{
+width:0%;
+height:0%;
+padding:0px;
+margin:auto;
+}
+
+td{
+width:20%;
+height:20%;
+padding:0px;
+margin:auto;
+}
+
+
+.tablein{
+background-color:#ff66f69c;
+border-width:0.5vw;
+border-radius:5vw;
+border-style:solid;
+border-color:white;
+box-shadow: 1vw 1vw 0.5vw #b35454;
+width:85%;
+height:85%;
+margin:auto;
+
+animation: sqroll 20s linear infinite;
+}
+
+
+
+.circle{
+background-color: #5666bf;
+width: 80%;
+height: 80%;
+border-width:5px;
+border-radius:50%;
+border-style:solid;
+border-color:white;
+box-shadow: 0.3vw 0.3vw 0.5vw #333333, inset 0.3vw 0.3vw 0.5vw #333333;
+}
+
+.cellin{
+width: 100%;
+height: 100%;
+vertical-align:top;
+}
+
+.txtmain{
+font-size: 3vw;
+font-weight: bold;
+text-align:left;
+margin-left: 10%;
+max-width: 80%;
+max-height:20px;
+}
+
+.txtsub{
+font-size: 1.3vw;
+text-align: left;
+margin-left: 10%;
+max-width: 80%;
+max-height:0px;
+}
+
+@keyframes roll{
+from {transform: rotate(0deg)}
+to {transform: rotate(360deg)}
+}
+
+@keyframes sqroll{
+from {transform: rotate(0deg)}
+to {transform: rotate(-360deg)}
+}
+
+
+
