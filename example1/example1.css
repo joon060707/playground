@@ -33,7 +33,7 @@ border-color:red;
 box-shadow: 1vw 1vw 3vw 2vw #333333;
 width:92vw;
 height:92vw;
-animation: rol 20s linear infinite;
+animation: roll 20s linear infinite;
 }
 
 .table1{
@@ -69,7 +69,7 @@ width:80%;
 height:80%;
 margin:auto;
 
-animation: sqrol 20s linear infinite;
+animation: sqroll 20s linear infinite;
 }
 
 
