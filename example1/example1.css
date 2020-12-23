@@ -1,5 +1,6 @@
 body{
 background-color: #99ff33;
+height:150vw;
 }
 
 #title{
@@ -14,10 +15,10 @@ border-radius:15vw;
 
 .play1{
 background-color: rgb(246, 187, 0);
-width: 80vw;
-height: calc(100vw);
-
-margin: 20px auto;
+border-radius:20vw;
+width: 90vw;
+height: calc(130vw);
+margin: auto;
 padding: 10px;
 }
 
@@ -30,15 +31,14 @@ border-radius:50%;
 border-style:solid;
 border-color:red;
 box-shadow: 1vw 1vw 3vw 2vw #333333;
-width:70vw;
-height:70vw;
-
-animation: roll 20s linear infinite;
+width:92vw;
+height:92vw;
+animation: rol 20s linear infinite;
 }
 
 .table1{
-width:63vw;
-height:63vw;
+width:85vw;
+height:85vw;
 }
 
 
@@ -65,11 +65,11 @@ border-radius:5vw;
 border-style:solid;
 border-color:white;
 box-shadow: 1vw 1vw 0.5vw #b35454;
-width:85%;
-height:85%;
+width:80%;
+height:80%;
 margin:auto;
 
-animation: sqroll 20s linear infinite;
+animation: sqrol 20s linear infinite;
 }
 
 
@@ -82,7 +82,7 @@ border-width:5px;
 border-radius:50%;
 border-style:solid;
 border-color:white;
-box-shadow: 0.3vw 0.3vw 0.5vw #333333, inset 0.3vw 0.3vw 0.5vw #333333;
+box-shadow: 0.5vw 0.5vw 1vw #333333, inset 0.5vw 0.5vw 1vw #333333;
 }
 
 .cellin{
