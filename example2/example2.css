@@ -1,0 +1,48 @@
+body{
+background-color: #99ff33;
+}
+
+#sq{
+x:25%;
+y:25%;
+height:50%;
+width:50%;
+rx:10%;
+ry:10%;
+fill:blue;
+stroke:green;
+stroke-width:1vw;
+}
+
+.back{
+position: relative;
+margin:auto;
+width: 300px;
+height: 300px;
+}
+
+#return{
+position: absolute;		/*fixed: 화면에 고정, absolute: 바로 위 요소에 고정*/
+top: 25%;
+width:100%;		/*너비를 100%으로 하지 않으면 좌측으로 쏠림*/
+font-size:30px;
+}
+
+#return:link{
+color:white;
+}
+#return:hover{
+color:yellow;
+font-size:50px;
+top: 10%;
+}
+#return:active{
+color:green;
+font-size:40px;
+font-style: italic;
+top: 20%;
+}
+a:visited{
+color:brown;
+}
+
