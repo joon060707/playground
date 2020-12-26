@@ -1,0 +1,217 @@
+body{
+	background-color: #daffb5;
+	background-image: url("trs.png");
+	background-size:200px 200px;
+	margin: 0px;
+}
+
+.description{
+	width:100%;
+	height:80px;
+	background-color: #000000cc;
+	box-shadow: 10px 10px 20px #101010;
+	position: sticky;
+	top: 0px;
+}
+
+p{
+	margin:0px;
+}
+
+.pcmenu{
+	width:100%;
+	height:150px;
+	position: relative;
+	top: 0px;
+	background-image: linear-gradient(to left, #ffa828, #ff6f42, #ffb240);
+}
+
+
+.bt{
+	vertical-align: top;
+	position: relative;
+	top: 25px;
+	display: none;
+	float: left;
+	margin-left: 20px;
+	border-radius: 20px;
+
+}
+.bt:active{
+	display: none;
+}
+
+
+/*PC*/
+.menu1{
+	display: inline-block;
+	width: calc(15vw);
+	position: relative;
+	top: 25px;
+	height: 100px;
+	vertical-align: top;
+	text-align: center;
+	border-radius: 20px;
+	margin: 0px;
+}
+.menu1:hover{
+	background-color: #ffffffaa;
+	color: black;
+	font-weight: bold;
+}
+.menu1:active{
+	background-color: #000000;
+	color: white;
+}
+
+.menutxt{
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: calc(20px + 2vw);
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	top: calc(40% - 1vw);
+}
+
+
+/*Mobile*/
+.mobliemenu{
+	background: rgb(246, 187, 0);
+	margin: 0px;
+	padding: 10px;
+	display: none;
+}
+.menu2{
+	border-radius: 10px;
+	padding: 5px;
+	margin: 0px;
+}
+
+.menu2:hover{
+	background-color: #ffffffaa;
+	color: black;
+	font-weight: bold;
+}
+.menu2:active{
+	background-color: #000000;
+	color: white;
+}
+
+.menutxt2{
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 30px;
+	margin: 5px;
+	text-align: left;
+}
+
+
+.brand{
+	display: inline-block;
+	background-image: url("trs.png");
+	background-size:150px 150px;
+	width: 150px;
+	height: 150px;
+}
+
+
+.topbar{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 25px;
+	color: white;
+	position: relative;
+	top: 30%;
+}
+
+/*Document*/
+.document{
+	font-family: 'Nanum Gothic', sans-serif;
+	background: #ffffffdd;
+
+	margin: 3vw;
+	border: 5px black dotted;
+	border-radius: 30px;
+}
+
+.title{
+	font-size: calc(30px + 3vw);
+	font-weight: bold;
+	padding: 50px;
+}
+
+.d_line{
+	width: 50%;
+	margin: 5% 25% 8% 25%;
+	height: 3px;
+	background-color: black;
+}
+
+.d_img{
+	margin: 0px 30px 30px 30px;
+	border: 3px solid grey;
+}
+.l{float: left;}
+.r{float: right;}
+
+.date{
+	margin: 30px;
+	font-size: 14px;
+	color: #999999;
+	text-align: right;
+}
+
+.text{
+	margin: 30px;
+	font-size: 16px;
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 1.6;
+}
+
+footer{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 12px;
+	background-color: #000000aa;
+	padding: 10px 0px 20px 0px;
+	text-align: center;
+	color: white;
+}
+
+.brand2{
+	display: inline-block;
+	background-image: url("trs.png");
+	background-size:70px 70px;
+	width: 70px;
+	height: 70px;
+}
+
+
+@media only screen and (max-width: 600px){
+	.pcmenu{
+	height:100px;
+	}
+	
+	.brand{
+	background-size:100px 100px;
+	width: 100px;
+	height: 100px;
+	}
+	
+	.mobliemenu{
+	display: block;
+	}
+	
+	.menu1{
+	display: none;
+	}
+	
+	body{
+	background-size:100px 100px;
+	}
+	
+	.topbar{
+	font-size: 20px;
+	top: 40%;
+}
+	
+}
+
