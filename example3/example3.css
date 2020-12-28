@@ -14,11 +14,20 @@ body{
 	top: 0px;
 }
 
+/*
+포지션
+static: 기분(작성 순서대로 만들어짐)
+relative: static(원래) 위치로부터 상대적으로 얼마 떨어지도록 지정
+fixed: 고정 위치(인터넷 화면에서의 위치 지정)
+absolute: 가장 가까운 부모 개체와의 위치 지정
+sticky: 화면을 내려도 위 아래에 계속 표시
+*/
+
 p{
 	margin:0px;
 }
 
-.pcmenu{
+.menu{
 	width:100%;
 	height:150px;
 	position: relative;
@@ -28,17 +37,14 @@ p{
 
 
 .bt{
+	width:100px;
+	height:100px;
 	vertical-align: top;
 	position: relative;
-	top: 25px;
+	top: 0px;
 	display: none;
 	float: left;
-	margin-left: 20px;
 	border-radius: 20px;
-
-}
-.bt:active{
-	display: none;
 }
 
 
@@ -79,7 +85,12 @@ p{
 	background: rgb(246, 187, 0);
 	margin: 0px;
 	padding: 10px;
+	width: calc(100vw - 37px);
 	display: none;
+	position: absolute;
+	top: 100px;
+	z-index: 2;
+	box-shadow: 10px 10px 20px #101010;
 }
 .menu2{
 	border-radius: 10px;
@@ -99,7 +110,7 @@ p{
 
 .menutxt2{
 	font-family: 'Nanum Pen Script', cursive;
-	font-size: 30px;
+	font-size: 24px;
 	margin: 5px;
 	text-align: left;
 }
@@ -120,6 +131,7 @@ p{
 	color: white;
 	position: relative;
 	top: 30%;
+	z-index: 1;
 }
 
 /*Document*/
@@ -185,18 +197,33 @@ footer{
 }
 
 
+.bt:hover .topbar{
+display: none;
+}
+
 @media only screen and (max-width: 600px){
-	.pcmenu{
+	.menu{
 	height:100px;
 	}
 	
 	.brand{
+	position: relative;
+	left: -50px;
 	background-size:100px 100px;
 	width: 100px;
 	height: 100px;
 	}
 	
-	.mobliemenu{
+	.bt{
+	display: inline-block;
+	}
+	
+	.bt:hover{
+	background-color: #ffffffaa;
+	display: block;
+	}
+	
+	.bt:hover .mobliemenu{
 	display: block;
 	}
 	
