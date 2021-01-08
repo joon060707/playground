@@ -1,4 +1,4 @@
-@font-face{
+/* @font-face{
     font-family: 'NanumSquareRound', sans-serif;
     font-weight: 300;
     src: url("NanumSquareRoundL.woff2") format("woff2");
@@ -8,4 +8,28 @@
     font-family: 'NanumSquareRound', sans-serif;
     font-weight: 700;
     src: url("NanumSquareRoundR.woff2") format("woff2");
-}
+} */
+
+@font-face {
+    font-family: "NanumSquareRound";
+    font-style: normal;
+    font-weight: 300;
+    src: local("NanumSquareRoundL"), /* computer */
+      url("NanumSquareRoundL.eot"), /* IE9 Compat Modes */
+      url("NanumSquareRoundL.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("NanumSquareRoundL.woff2") format("woff2"), /* Modern Browsers */
+      url("NanumSquareRoundL.woff") format("woff"), /* Modern Browsers */
+      url("NanumSquareRoundL.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
+
+  @font-face {
+    font-family: "NanumSquareRound";
+    font-style: normal;
+    font-weight: 700;
+    src: local("NanumSquareRoundB"), /* computer */
+      url("NanumSquareRoundB.eot"), /* IE9 Compat Modes */
+      url("NanumSquareRoundB.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("NanumSquareRoundB.woff2") format("woff2"), /* Modern Browsers */
+      url("NanumSquareRoundB.woff") format("woff"), /* Modern Browsers */
+      url("NanumSquareRoundB.ttf") format("truetype"); /* Safari, Android, iOS */
+  }
