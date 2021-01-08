@@ -14,22 +14,14 @@
     font-family: "NanumSquareRound";
     font-style: normal;
     font-weight: 300;
-    src: local("NanumSquareRoundL"), /* computer */
-      url("NanumSquareRoundL.eot"), /* IE9 Compat Modes */
-      url("NanumSquareRoundL.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-      url("NanumSquareRoundL.woff2") format("woff2"), /* Modern Browsers */
-      url("NanumSquareRoundL.woff") format("woff"), /* Modern Browsers */
-      url("NanumSquareRoundL.ttf") format("truetype"); /* Safari, Android, iOS */
+    src: url("NanumSquareRoundL.woff2") format("woff2"); /* Modern Browsers */
+
   }
 
   @font-face {
     font-family: "NanumSquareRound";
     font-style: normal;
     font-weight: 700;
-    src: local("NanumSquareRoundB"), /* computer */
-      url("NanumSquareRoundB.eot"), /* IE9 Compat Modes */
-      url("NanumSquareRoundB.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-      url("NanumSquareRoundB.woff2") format("woff2"), /* Modern Browsers */
-      url("NanumSquareRoundB.woff") format("woff"), /* Modern Browsers */
-      url("NanumSquareRoundB.ttf") format("truetype"); /* Safari, Android, iOS */
+    src: url("NanumSquareRoundB.woff2") format("woff2"); /* Modern Browsers */
+
   }
