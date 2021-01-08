@@ -1,11 +1,11 @@
 @font-face{
     font-family: 'NanumSquareRound', sans-serif;
     font-weight: 300;
-    src: url("NanumSquareRoundL.woff") format("woff"),url("NanumSquareRoundL.ttf") format("truetype");
+    src: url("NanumSquareRoundL.woff") format("woff"), url("NanumSquareRoundL.ttf") format("truetype");
 }
 
 @font-face{
     font-family: 'NanumSquareRound', sans-serif;
     font-weight: 700;
-    src: url("NanumSquareRoundR.woff") format("woff"),url("NanumSquareRoundR.ttf") format("truetype");
+    src: url("NanumSquareRoundR.woff") format("woff"), url("NanumSquareRoundR.ttf") format("truetype");
 }
