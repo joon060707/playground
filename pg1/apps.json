@@ -30,7 +30,7 @@
             "date": "2020.11.13",
             "ver": "1.0.0",
             "count": "약 3회",
-            "appico": "../../Sources/Images/Apps/app04ico.png",
+            "appico": "../../Sources/Images/Apps/app03ico.png",
             "scr": ["../../Sources/Images/Apps/app0301.png", "../../Sources/Images/Apps/app0302.png", "../../Sources/Images/Apps/app0303.png", "../../Sources/Images/Apps/app0304.png"],
             "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.luckyfiftygame","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=52"]
         },
