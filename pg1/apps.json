@@ -1,0 +1,82 @@
+{
+    "appcount":7,
+    "data":[
+        {
+            "title": "app1",
+            "info1": "설명1",
+            "info2": "설명2",
+            "date": "날짜",
+            "ver": "버전",
+            "count": "123",
+            "appico": "../../Sources/Images/Apps/app04ico.png",
+            "scr": ["../../Sources/Images/Apps/app0401.png", "../../Sources/Images/Apps/app0402.png", "../../Sources/Images/Apps/app0403.png", "../../Sources/Images/Apps/app0404.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.stepcounter","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=48"]
+        },
+        {
+            "title": "app2",
+            "info1": "app2",
+            "info2": "app2",
+            "date": "app2",
+            "ver": "app2",
+            "count": "app2",
+            "appico": "",
+            "scr": ["21", "22", "23", "24"],
+            "link":["25","26"]
+        },
+        {
+            "title": "Candy Collector",
+            "info1": "",
+            "info2": "",
+            "date": "",
+            "ver": "",
+            "count": "",
+            "appico": "",
+            "scr": ["", "", "", ""],
+            "link":["",""]
+        },
+        {
+            "title": "Candy Collector",
+            "info1": "",
+            "info2": "",
+            "date": "",
+            "ver": "",
+            "count": "",
+            "appico": "../../Sources/Images/Apps/app04ico.png",
+            "scr": ["../../Sources/Images/Apps/app0401.png", "../../Sources/Images/Apps/app0402.png", "../../Sources/Images/Apps/app0403.png", "../../Sources/Images/Apps/app0404.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.stepcounter","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=48"]
+        },
+        {
+            "title": "Candy Collector",
+            "info1": "",
+            "info2": "",
+            "date": "",
+            "ver": "",
+            "count": "",
+            "appico": "",
+            "scr": ["", "", "", ""],
+            "link":["",""]
+        },
+        {
+            "title": "Candy Collector",
+            "info1": "",
+            "info2": "",
+            "date": "",
+            "ver": "",
+            "count": "",
+            "appico": "",
+            "scr": ["", "", "", ""],
+            "link":["",""]
+        },
+        {
+            "title": "Candy Collector",
+            "info1": "",
+            "info2": "",
+            "date": "",
+            "ver": "",
+            "count": "",
+            "appico": "",
+            "scr": ["", "", "", ""],
+            "link":["",""]
+        }
+    ]
+}
