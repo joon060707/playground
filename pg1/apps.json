@@ -2,26 +2,26 @@
     "appcount":7,
     "data":[
         {
-            "title": "app1",
-            "info1": "설명1",
-            "info2": "설명2",
-            "date": "날짜",
-            "ver": "버전",
-            "count": "123",
-            "appico": "../../Sources/Images/Apps/app04ico.png",
-            "scr": ["../../Sources/Images/Apps/app0401.png", "../../Sources/Images/Apps/app0402.png", "../../Sources/Images/Apps/app0403.png", "../../Sources/Images/Apps/app0404.png"],
-            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.stepcounter","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=48"]
+            "title": "Candy Collector",
+            "info1": "마지막 앱 인벤터 게임인 Space Travel의 느낌을 그대로 물려받은 나의 첫 안드로이드 스튜디오 게임",
+            "info2": "화면 좌우를 터치해가며 다양한 크기의 사탕을 모으는 단순한 게임입니다.<br/>플레이 중 다양한 업적을 획득하고 그에 따른 포인트를 얻을 수 있습니다.",
+            "date": "2020.09.09",
+            "ver": "1.7.6",
+            "count": "약 7회",
+            "appico": "../../Sources/Images/Apps/app01ico.png",
+            "scr": ["../../Sources/Images/Apps/app0101.png", "../../Sources/Images/Apps/app0102.png", "../../Sources/Images/Apps/app0103.png", "../../Sources/Images/Apps/app0104.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.candycollector","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=31"]
         },
         {
-            "title": "app2",
-            "info1": "app2",
-            "info2": "app2",
-            "date": "app2",
-            "ver": "app2",
-            "count": "app2",
-            "appico": "",
-            "scr": ["21", "22", "23", "24"],
-            "link":["25","26"]
+            "title": "One Second Game",
+            "info1": "앱 인벤터로 만든 게임을 보완하여 리마스터한 첫 앱이자 2번째 안드로이드 스튜디오 게임",
+            "info2": "자신의 시간 및 박자 감각을 테스트해볼 수 있는 게임입니다.<br/>타이머를 보고 정확히 XX초 00이 될 때 1초 버튼을 터치하면 되며,<br/>100점부터 시작하여 0.01초 오차 당 1점씩 감점됩니다.",
+            "date": "2020.09.27",
+            "ver": "1.2.7",
+            "count": "약 8회",
+            "appico": "../../Sources/Images/Apps/app02ico.png",
+            "scr": ["../../Sources/Images/Apps/app0201.png", "../../Sources/Images/Apps/app0202.png", "../../Sources/Images/Apps/app0203.png", "../../Sources/Images/Apps/app0204.png"],
+            "link":["https://play.google.com/store/apps/details?id=com.triplej.ap.onesecondgame","https://blog.naver.com/PostList.nhn?blogId=joon060707&from=postList&categoryNo=37"]
         },
         {
             "title": "Candy Collector",
