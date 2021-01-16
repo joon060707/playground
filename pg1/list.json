@@ -1,69 +1,15 @@
 {
     "doclist":[
         {
-            "name": "테스트 문서 12",
+            "name": "테스트 문서 2",
             "datestr": "2021.01.16",
             "datelong":20210116090612,
             "link": "any_post.html"
         },
         {
-            "name": "테스트 문서 11",
-            "datestr": "2021.01.16",
-            "datelong":20210116070612,
-            "link": "any_post.html"
-        },
-        {
-            "name": "테스트 문서 10",
-            "datestr": "2021.01.16",
-            "datelong":20210116050612,
-            "link": "any_post.html"
-        },
-        {
-            "name": "",
-            "datestr": "2021.01.16",
-            "datelong":20210116040612,
-            "link": "any_post.html"
-        },
-        {
-            "name": "테스트 문서 8",
-            "datestr": "2021.01.16",
-            "datelong":20210116020612,
-            "link": "any_post.html"
-        },
-        {
-            "name": "테스트 문서 7",
-            "datestr": "2021.01.16",
-            "datelong":20210116000612,
-            "link": "any_post.html"
-        },
-        {
-            "name": "테스트 문서 6",
-            "datestr": "2021.01.15",
-            "datelong":20210115230612,
-            "link": "any_post.html"
-        },
-        {
-            "name": "테스트 문서 5",
-            "datestr": "2021.01.15",
-            "datelong":20210115210612,
-            "link": "any_post.html"
-        },
-        {
-            "name": "테스트 문서 4",
-            "datestr": "2021.01.15",
-            "datelong":20210115190612,
-            "link": "any_post.html"
-        },
-        {
-            "name": "테스트 문서 3",
-            "datestr": "2021.01.15",
-            "datelong":20210115150612,
-            "link": "any_post.html"
-        },
-        {
             "name": "테스트 문서 2",
-            "datestr": "2021.01.14",
-            "datelong":20210114090612,
+            "datestr": "2021.01.15",
+            "datelong":20210115090612,
             "link": "any_post.html"
         },
         {
