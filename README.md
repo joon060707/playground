@@ -5,4 +5,4 @@
 
 연습장이긴 하지만 공개로 남겨두겠습니다 ㅎㅎ
 
-https://joon060707.github.io/playground/
+https://joon060707.github.io/Playground/
